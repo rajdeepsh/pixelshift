@@ -17,7 +17,7 @@ class Args:
     """Destination image path"""
 
     replace: tuple[tuple[int, int, int], tuple[int, int, int]] | None = None
-    """Replace all occurances of the first RGB pixel with the second RGB pixel"""
+    """Replace all occurances of the first RGB value with the second RGB value"""
 
 
 def replace(img, src_rgb, dst_rgb):
